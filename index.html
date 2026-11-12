@@ -1,43 +1,217 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>하루취미 | 사면 얼마, 만들면 얼마</title>
-  <meta name="description" content="DIY 재료를 모아 완성품으로, 예쁜 완성품은 DIY 재료로. 마크라메, 캔들, 뜨개, 라탄, 비즈, 레진, 자수 재료와 만드는 법을 한 페이지에.">
-  <meta property="og:title" content="하루취미 | 사면 얼마, 만들면 얼마">
-  <meta property="og:description" content="흩어진 DIY 재료를 모아 완성품으로 보여주고, 예쁜 완성품은 재료로 뜯어서 보여드려요.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://haruchwimi.com/">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23c8643c'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>하</text></svg>">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>하루취미 | 사면 얼마, 만들면 얼마</title>
+<meta name="description" content="DIY 재료를 모아 완성품으로, 예쁜 완성품은 DIY 재료로. 뜨개, 마크라메, 캔들, 석고, 레진, 비즈, 자수, 가죽 재료와 만드는 법을 한 페이지에.">
+<link rel="canonical" href="https://haruchwimi.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="하루취미">
+<meta property="og:title" content="하루취미 | 사면 얼마, 만들면 얼마">
+<meta property="og:description" content="DIY 재료를 모아 완성품으로, 예쁜 완성품은 DIY 재료로. 뜨개, 마크라메, 캔들, 석고, 레진, 비즈, 자수, 가죽 재료와 만드는 법을 한 페이지에.">
+<meta property="og:url" content="https://haruchwimi.com/">
+<meta property="og:image" content="https://haruchwimi.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#fbf8f3">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"하루취미","url":"https://haruchwimi.com/","potentialAction":{"@type":"SearchAction","target":"https://haruchwimi.com/search?q={q}","query-input":"required name=q"}}</script>
 </head>
 <body>
-  <header class="top">
-    <div class="wrap top-in">
-      <a class="logo" href="#/"><span class="logo-mark">하</span>하루취미</a>
-      <button id="menuBtn" class="menu-btn" aria-label="메뉴">메뉴</button>
-      <nav class="nav">
-        <a href="#/make">모아서 만들기</a>
-        <a href="#/break">완성품 뜯어보기</a>
-        <a href="#/materials">재료 사전</a>
-        <a href="#/knit">뜨개 도안</a>
-      </nav>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="/"><span class="logo-mark">하</span>하루취미</a>
+    <div class="top-right">
+      <a class="search-btn" href="/search" aria-label="검색"><svg viewBox="0 0 24 24" width="18" height="18"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+      <button id="menuBtn" class="menu-btn" aria-label="메뉴" aria-expanded="false">메뉴</button>
     </div>
-  </header>
-  <main id="app" class="wrap"></main>
-  <footer class="foot">
-    <div class="wrap foot-in">
-      <div><b>하루취미</b> haruchwimi.com<br><span class="muted">하루 한 가지, 손으로 만드는 취미</span></div>
-      <div class="foot-links"><a href="#/about">소개 · 제휴 안내</a><a href="mailto:hello@haruchwimi.com">문의</a></div>
-      <p class="muted small">이 게시물은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 가격은 참고가예요.</p>
-    </div>
-  </footer>
-  <script src="data.js"></script>
-  <script src="art.js"></script>
-  <script src="app.js"></script>
+    <nav class="nav"><a href="/make">모아서 만들기</a><a href="/break">완성품 뜯어보기</a><a href="/materials">재료 사전</a><a href="/knit">뜨개 도안</a></nav>
+  </div>
+</header>
+<main class="wrap">
+
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">하루 한 가지, 손으로 만드는 취미</p>
+    <h1>사면 얼마,<br>만들면 얼마?</h1>
+    <p class="lead">흩어진 DIY 재료를 모아 완성품으로 보여주고,<br>예쁜 완성품은 재료로 뜯어서 보여드려요.</p>
+    <div class="hero-cta"><a class="btn" href="/make">모아서 만들기</a><a class="btn ghost" href="/break">완성품 뜯어보기</a></div>
+  </div>
+  <a class="hero-flip" href="/bead-keyring" aria-label="파스텔 비즈 키링 뜯어보기">
+    <div class="flip-col"><div class="flip-label">재료</div><div class="flip-mat">체코 유리비즈 믹스</div><div class="flip-mat">담수진주 비즈 1줄</div><div class="flip-mat">하트 참 (5개)</div><div class="flip-mat">키링 고리 (10개)</div><div class="flip-mat">우레탄줄 + T핀 세트</div></div>
+    <div class="flip-arrow" aria-hidden="true">⇄</div>
+    <div class="flip-col"><div class="flip-label">완성품 · 18,000원</div><div class="flip-art" style="background:#f3e1e4"><svg viewBox="0 0 200 200" role="img" aria-label="파스텔 비즈 키링"><circle cx="100" cy="40" r="20" fill="none" stroke="#b9b9c2" stroke-width="5"/><circle cx="100" cy="70" r="6.5" fill="#f6c6d0" stroke="#e2d6d8"/><circle cx="100" cy="81" r="5.5" fill="#fff6ea" stroke="#e2d6d8"/><circle cx="100" cy="92" r="6.5" fill="#c9e4f2" stroke="#e2d6d8"/><circle cx="100" cy="103" r="6.5" fill="#f9e1a8" stroke="#e2d6d8"/><circle cx="100" cy="114" r="5.5" fill="#fff6ea" stroke="#e2d6d8"/><circle cx="100" cy="125" r="6.5" fill="#d8c9f2" stroke="#e2d6d8"/><circle cx="100" cy="136" r="6.5" fill="#f6c6d0" stroke="#e2d6d8"/><circle cx="100" cy="147" r="5.5" fill="#fff6ea" stroke="#e2d6d8"/><path d="M100 168 C88 158 82 150 88 144 C93 139 99 143 100 147 C101 143 107 139 112 144 C118 150 112 158 100 168Z" fill="#ef8fa5"/></svg></div><div class="flip-cost">재료비 3,300원</div></div>
+  </a>
+</section>
+<section class="stats">
+  <div><b>24</b><span>작품 레시피</span></div>
+  <div><b>63</b><span>재료 사전</span></div>
+  <div><b>평균 81%</b><span>직접 만들면 아끼는 비용</span></div>
+</section>
+<section class="sec">
+  <div class="chips"><a class="chip" href="/search?q=%EB%A7%88%ED%81%AC%EB%9D%BC%EB%A9%94">마크라메</a><a class="chip" href="/search?q=%EC%BA%94%EB%93%A4">캔들</a><a class="chip" href="/search?q=%EB%9C%A8%EA%B0%9C">뜨개</a><a class="chip" href="/search?q=%EB%9D%BC%ED%83%84">라탄</a><a class="chip" href="/search?q=%EB%B9%84%EB%88%84">비누</a><a class="chip" href="/search?q=%EB%94%94%ED%93%A8%EC%A0%80">디퓨저</a><a class="chip" href="/search?q=%EA%B0%80%EC%A3%BD">가죽</a><a class="chip" href="/search?q=%EB%AA%A8%EB%A3%A8">모루</a><a class="chip" href="/search?q=%EB%B9%84%EC%A6%88">비즈</a><a class="chip" href="/search?q=%EC%84%9D%EA%B3%A0">석고</a><a class="chip" href="/search?q=%EB%A0%88%EC%A7%84">레진</a><a class="chip" href="/search?q=%EC%9E%90%EC%88%98">자수</a></div>
+</section>
+<section class="sec">
+  <div class="sec-head"><h2>모아서 만들기</h2><a href="/make">전체 12개</a></div>
+  <p class="sec-sub">재료 목록 → 만드는 순서 → 완성품까지 한 페이지에</p>
+  <div class="grid"><a class="card" href="/macrame-wall-hanging" data-cat="마크라메" data-level="쉬움">
+  <div class="thumb" style="background:#efe6d8"><svg viewBox="0 0 200 200" role="img" aria-label="마크라메 월행잉"><line x1="40" y1="45" x2="160" y2="45" stroke="#a9805a" stroke-width="7" stroke-linecap="round"/><path d="M52 48 Q55 90 73.6 125 L73.6 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M65.7 48 Q68.7 90 81.135 125 L81.135 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M79.4 48 Q82.4 90 88.67 125 L88.67 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M93.1 48 Q96.1 90 96.205 125 L96.205 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M106.8 48 Q109.8 90 103.74 125 L103.74 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M120.5 48 Q123.5 90 111.275 125 L111.275 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M134.2 48 Q137.2 90 118.81 125 L118.81 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M147.89999999999998 48 Q150.89999999999998 90 126.34499999999998 125 L126.34499999999998 165" stroke="#f7f1e6" stroke-width="4" fill="none" stroke-linecap="round"/><ellipse cx="72" cy="68" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="94" cy="68" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="116" cy="68" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="138" cy="68" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="82" cy="84" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="104" cy="84" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="126" cy="84" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="92" cy="100" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="114" cy="100" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><ellipse cx="102" cy="116" rx="8" ry="5" fill="#fffaf0" stroke="#d9cbb3"/><circle cx="78" cy="105" r="5" fill="#c49a6c"/><circle cx="122" cy="105" r="5" fill="#c49a6c"/><circle cx="100" cy="132" r="5" fill="#c49a6c"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">마크라메 · 쉬움 · 2시간</div>
+    <h3>마크라메 월행잉</h3>
+    <div class="price-line"><span class="strike">사면 35,000원</span><b>만들면 15,900원</b></div>
+  </div></a><a class="card" href="/macrame-plant-hanger" data-cat="마크라메" data-level="쉬움">
+  <div class="thumb" style="background:#e6ece0"><svg viewBox="0 0 200 200" role="img" aria-label="마크라메 화분 걸이"><circle cx="100" cy="28" r="10" fill="none" stroke="#b98c5e" stroke-width="5"/><rect x="94" y="38" width="12" height="14" rx="3" fill="#f7f1e6" stroke="#d9cbb3"/><path d="M100 52 Q81 92 62 120" stroke="#f7f1e6" stroke-width="4" fill="none"/><path d="M100 52 Q119 92 138 120" stroke="#f7f1e6" stroke-width="4" fill="none"/><path d="M100 52 Q93 93 86 122" stroke="#f7f1e6" stroke-width="4" fill="none"/><path d="M100 52 Q107 93 114 122" stroke="#f7f1e6" stroke-width="4" fill="none"/><path d="M66 88 l8 6 l8 -6 M118 88 l8 6 l8 -6" stroke="#d9cbb3" stroke-width="3" fill="none"/><path d="M62 120 h76 l-8 46 h-60z" fill="#d9825b"/><rect x="58" y="114" width="84" height="10" rx="3" fill="#c46f4a"/><path d="M100 114 C88 92 76 96 72 84 C86 84 96 92 100 114Z M100 114 C110 90 124 92 132 80 C118 80 104 92 100 114Z M100 114 C100 92 104 82 100 70 C94 84 96 98 100 114Z" fill="#7d9a6b"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">마크라메 · 쉬움 · 1시간 30분</div>
+    <h3>마크라메 화분 걸이</h3>
+    <div class="price-line"><span class="strike">사면 22,000원</span><b>만들면 6,500원</b></div>
+  </div></a><a class="card" href="/soy-candle" data-cat="캔들" data-level="쉬움">
+  <div class="thumb" style="background:#f1e2cf"><svg viewBox="0 0 200 200" role="img" aria-label="앰버자 소이캔들">
+    <rect x="62" y="70" width="76" height="92" rx="12" fill="#b9732f" opacity=".9"/>
+    <rect x="62" y="70" width="76" height="20" rx="8" fill="#8c531f"/>
+    <rect x="70" y="96" width="60" height="52" rx="6" fill="#f6ead7"/>
+    <text x="100" y="126" font-size="11" text-anchor="middle" fill="#4a3f35" font-family="serif">soy</text>
+    <line x1="100" y1="70" x2="100" y2="54" stroke="#4a3f35" stroke-width="3"/>
+    <path d="M100 26 C112 40 110 52 100 54 C90 52 88 40 100 26Z" fill="#f2b84b"/>
+    <path d="M100 38 C105 45 104 51 100 52 C96 51 95 45 100 38Z" fill="#fff3c4"/>
+    <circle cx="80" cy="74" r="4" fill="#d58ea0"/><circle cx="118" cy="76" r="3" fill="#e9c46a"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">캔들 · 쉬움 · 1시간 + 굳히기 하루</div>
+    <h3>앰버자 소이캔들</h3>
+    <div class="price-line"><span class="strike">사면 25,000원</span><b>만들면 7,700원</b></div>
+  </div></a><a class="card" href="/net-bag" data-cat="뜨개" data-level="보통">
+  <div class="thumb" style="background:#e9ecdc"><svg viewBox="0 0 200 200" role="img" aria-label="코바늘 네트백"><path d="M70 70 Q70 30 100 30 Q130 30 130 70" stroke="#d6c8a4" stroke-width="7" fill="none"/><path d="M48 70 H152 L140 165 Q100 178 60 165Z" fill="#f4eedb" stroke="#d6c8a4" stroke-width="3"/><path d="M53.44 82 H146.56" stroke="#cdbd92" stroke-width="2"/><path d="M55.12 96 H144.88" stroke="#cdbd92" stroke-width="2"/><path d="M56.8 110 H143.2" stroke="#cdbd92" stroke-width="2"/><path d="M58.48 124 H141.52" stroke="#cdbd92" stroke-width="2"/><path d="M60.16 138 H139.84" stroke="#cdbd92" stroke-width="2"/><path d="M61.84 152 H138.16" stroke="#cdbd92" stroke-width="2"/><line x1="56" y1="70" x2="64.8" y2="168" stroke="#cdbd92" stroke-width="2"/><line x1="70" y1="70" x2="76" y2="168" stroke="#cdbd92" stroke-width="2"/><line x1="84" y1="70" x2="87.2" y2="168" stroke="#cdbd92" stroke-width="2"/><line x1="98" y1="70" x2="98.4" y2="168" stroke="#cdbd92" stroke-width="2"/><line x1="112" y1="70" x2="109.6" y2="168" stroke="#cdbd92" stroke-width="2"/><line x1="126" y1="70" x2="120.8" y2="168" stroke="#cdbd92" stroke-width="2"/><line x1="140" y1="70" x2="132" y2="168" stroke="#cdbd92" stroke-width="2"/><ellipse cx="88" cy="128" rx="16" ry="13" fill="#f2d14b"/><ellipse cx="114" cy="138" rx="15" ry="12" fill="#e9c234"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">뜨개 · 보통 · 6시간</div>
+    <h3>코바늘 네트백</h3>
+    <div class="price-line"><span class="strike">사면 39,000원</span><b>만들면 16,600원</b></div>
+  </div></a><a class="card" href="/knit-muffler" data-cat="뜨개" data-level="쉬움">
+  <div class="thumb" style="background:#ece0dc"><svg viewBox="0 0 200 200" role="img" aria-label="대바늘 고무뜨기 목도리"><path d="M60 40 Q100 70 140 40 L150 60 Q100 96 50 60Z" fill="#c9705a"/><rect x="70" y="70" width="34" height="96" rx="6" fill="#c9705a"/><rect x="108" y="66" width="30" height="80" rx="6" fill="#b5604c" transform="rotate(8 123 106)"/><line x1="74" y1="74" x2="74" y2="162" stroke="#a85543" stroke-width="2"/><line x1="80" y1="74" x2="80" y2="162" stroke="#a85543" stroke-width="2"/><line x1="86" y1="74" x2="86" y2="162" stroke="#a85543" stroke-width="2"/><line x1="92" y1="74" x2="92" y2="162" stroke="#a85543" stroke-width="2"/><line x1="98" y1="74" x2="98" y2="162" stroke="#a85543" stroke-width="2"/><line x1="74" y1="166" x2="74" y2="180" stroke="#c9705a" stroke-width="2.5"/><line x1="80" y1="166" x2="80" y2="180" stroke="#c9705a" stroke-width="2.5"/><line x1="86" y1="166" x2="86" y2="180" stroke="#c9705a" stroke-width="2.5"/><line x1="92" y1="166" x2="92" y2="180" stroke="#c9705a" stroke-width="2.5"/><line x1="98" y1="166" x2="98" y2="180" stroke="#c9705a" stroke-width="2.5"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">뜨개 · 쉬움 · 8시간</div>
+    <h3>대바늘 고무뜨기 목도리</h3>
+    <div class="price-line"><span class="strike">사면 45,000원</span><b>만들면 22,300원</b></div>
+  </div></a><a class="card" href="/crochet-coaster" data-cat="뜨개" data-level="쉬움">
+  <div class="thumb" style="background:#f3ead6"><svg viewBox="0 0 200 200" role="img" aria-label="코바늘 꽃 컵받침"><circle cx="100" cy="100" r="66" fill="#fbf6ea" stroke="#e7dcc0" stroke-width="4"/><ellipse cx="130" cy="100" rx="22" ry="15" fill="#f2b0a1" transform="rotate(0 130 100)"/><ellipse cx="115" cy="125.98076211353316" rx="22" ry="15" fill="#f2b0a1" transform="rotate(60 115 125.98076211353316)"/><ellipse cx="85" cy="125.98076211353316" rx="22" ry="15" fill="#f2b0a1" transform="rotate(120 85 125.98076211353316)"/><ellipse cx="70" cy="100" rx="22" ry="15" fill="#f2b0a1" transform="rotate(180 70 100)"/><ellipse cx="84.99999999999999" cy="74.01923788646684" rx="22" ry="15" fill="#f2b0a1" transform="rotate(240 84.99999999999999 74.01923788646684)"/><ellipse cx="115" cy="74.01923788646684" rx="22" ry="15" fill="#f2b0a1" transform="rotate(300 115 74.01923788646684)"/><circle cx="100" cy="100" r="16" fill="#f2d14b"/><circle cx="100" cy="100" r="20" fill="none" stroke="#000" stroke-opacity=".04"/><circle cx="100" cy="100" r="30" fill="none" stroke="#000" stroke-opacity=".04"/><circle cx="100" cy="100" r="40" fill="none" stroke="#000" stroke-opacity=".04"/><circle cx="100" cy="100" r="50" fill="none" stroke="#000" stroke-opacity=".04"/><circle cx="100" cy="100" r="60" fill="none" stroke="#000" stroke-opacity=".04"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">뜨개 · 쉬움 · 1시간</div>
+    <h3>코바늘 꽃 컵받침</h3>
+    <div class="price-line"><span class="strike">사면 9,000원</span><b>만들면 1,000원</b></div>
+  </div></a><a class="card" href="/acrylic-scrubby" data-cat="뜨개" data-level="쉬움">
+  <div class="thumb" style="background:#e2eef0"><svg viewBox="0 0 200 200" role="img" aria-label="아크릴 수세미"><rect x="50" y="56" width="100" height="100" rx="12" fill="#7cc4cf"/><path d="M56 64 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 73 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 82 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 91 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 100 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 109 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 118 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 127 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 136 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M56 145 q6 4 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t6 0" stroke="#5aaab6" stroke-width="2" fill="none"/><path d="M140 56 q14 -22 -4 -26 q-14 -2 -6 22" stroke="#7cc4cf" stroke-width="5" fill="none"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">뜨개 · 쉬움 · 40분</div>
+    <h3>아크릴 수세미</h3>
+    <div class="price-line"><span class="strike">사면 6,000원</span><b>만들면 1,000원</b></div>
+  </div></a><a class="card" href="/rattan-tray" data-cat="라탄" data-level="보통">
+  <div class="thumb" style="background:#efe3cc"><svg viewBox="0 0 200 200" role="img" aria-label="라탄 원형 트레이"><ellipse cx="100" cy="120" rx="78" ry="40" fill="#c99a5b"/><ellipse cx="100" cy="112" rx="70" ry="33" fill="#e7c48d"/><ellipse cx="100" cy="118" rx="76" ry="38" fill="none" stroke="#a87a3f" stroke-width="1.5" opacity=".6"/><ellipse cx="100" cy="120" rx="75" ry="37" fill="none" stroke="#a87a3f" stroke-width="1.5" opacity=".6"/><ellipse cx="100" cy="122" rx="74" ry="36" fill="none" stroke="#a87a3f" stroke-width="1.5" opacity=".6"/><ellipse cx="100" cy="124" rx="73" ry="35" fill="none" stroke="#a87a3f" stroke-width="1.5" opacity=".6"/><ellipse cx="100" cy="126" rx="72" ry="34" fill="none" stroke="#a87a3f" stroke-width="1.5" opacity=".6"/><ellipse cx="100" cy="108" rx="24" ry="9" fill="#fff"/><rect x="78" y="80" width="44" height="28" rx="6" fill="#fff"/><ellipse cx="100" cy="82" rx="22" ry="6" fill="#6b4226"/><path d="M122 88 q14 2 0 14" stroke="#fff" stroke-width="5" fill="none"/></svg><span class="badge make">모아서 만들기</span></div>
+  <div class="card-body">
+    <div class="meta">라탄 · 보통 · 3시간</div>
+    <h3>라탄 원형 트레이</h3>
+    <div class="price-line"><span class="strike">사면 28,000원</span><b>만들면 7,500원</b></div>
+  </div></a></div>
+</section>
+<section class="sec">
+  <div class="sec-head"><h2>완성품 뜯어보기</h2><a href="/break">전체 12개</a></div>
+  <p class="sec-sub">소품샵에서 본 그 물건, 재료로 나누면 이만큼</p>
+  <div class="grid"><a class="card" href="/bead-keyring" data-cat="비즈" data-level="쉬움">
+  <div class="thumb" style="background:#f3e1e4"><svg viewBox="0 0 200 200" role="img" aria-label="파스텔 비즈 키링"><circle cx="100" cy="40" r="20" fill="none" stroke="#b9b9c2" stroke-width="5"/><circle cx="100" cy="70" r="6.5" fill="#f6c6d0" stroke="#e2d6d8"/><circle cx="100" cy="81" r="5.5" fill="#fff6ea" stroke="#e2d6d8"/><circle cx="100" cy="92" r="6.5" fill="#c9e4f2" stroke="#e2d6d8"/><circle cx="100" cy="103" r="6.5" fill="#f9e1a8" stroke="#e2d6d8"/><circle cx="100" cy="114" r="5.5" fill="#fff6ea" stroke="#e2d6d8"/><circle cx="100" cy="125" r="6.5" fill="#d8c9f2" stroke="#e2d6d8"/><circle cx="100" cy="136" r="6.5" fill="#f6c6d0" stroke="#e2d6d8"/><circle cx="100" cy="147" r="5.5" fill="#fff6ea" stroke="#e2d6d8"/><path d="M100 168 C88 158 82 150 88 144 C93 139 99 143 100 147 C101 143 107 139 112 144 C118 150 112 158 100 168Z" fill="#ef8fa5"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">비즈 · 쉬움 · 30분</div>
+    <h3>파스텔 비즈 키링</h3>
+    <div class="price-line"><span class="strike">사면 18,000원</span><b>만들면 3,300원</b></div>
+  </div></a><a class="card" href="/bead-ring" data-cat="비즈" data-level="쉬움">
+  <div class="thumb" style="background:#e8e4f1"><svg viewBox="0 0 200 200" role="img" aria-label="시드비즈 반지"><circle cx="148" cy="108" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="147.27077214458598" cy="113.20944533000791" r="5" fill="#f6c6d0" stroke="#ddd3e6" stroke-width=".8"/><circle cx="145.1052457977236" cy="118.26060429977007" r="5" fill="#c9e4f2" stroke="#ddd3e6" stroke-width=".8"/><circle cx="141.56921938165306" cy="123" r="5" fill="#fff6ea" stroke="#ddd3e6" stroke-width=".8"/><circle cx="136.77013326971095" cy="127.28362829059617" r="5" fill="#f9e1a8" stroke="#ddd3e6" stroke-width=".8"/><circle cx="130.8538052649539" cy="130.98133329356935" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="124" cy="133.98076211353316" r="5" fill="#f6c6d0" stroke="#ddd3e6" stroke-width=".8"/><circle cx="116.4169668796321" cy="136.19077862357724" r="5" fill="#c9e4f2" stroke="#ddd3e6" stroke-width=".8"/><circle cx="108.33511252801266" cy="137.54423259036625" r="5" fill="#fff6ea" stroke="#ddd3e6" stroke-width=".8"/><circle cx="100" cy="138" r="5" fill="#f9e1a8" stroke="#ddd3e6" stroke-width=".8"/><circle cx="91.66488747198734" cy="137.54423259036625" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="83.5830331203679" cy="136.19077862357724" r="5" fill="#f6c6d0" stroke="#ddd3e6" stroke-width=".8"/><circle cx="76.00000000000001" cy="133.98076211353316" r="5" fill="#c9e4f2" stroke="#ddd3e6" stroke-width=".8"/><circle cx="69.14619473504611" cy="130.98133329356935" r="5" fill="#fff6ea" stroke="#ddd3e6" stroke-width=".8"/><circle cx="63.22986673028906" cy="127.28362829059618" r="5" fill="#f9e1a8" stroke="#ddd3e6" stroke-width=".8"/><circle cx="58.430780618346944" cy="123" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="54.8947542022764" cy="118.26060429977007" r="5" fill="#f6c6d0" stroke="#ddd3e6" stroke-width=".8"/><circle cx="52.72922785541402" cy="113.20944533000791" r="5" fill="#c9e4f2" stroke="#ddd3e6" stroke-width=".8"/><circle cx="52" cy="108" r="5" fill="#fff6ea" stroke="#ddd3e6" stroke-width=".8"/><circle cx="52.72922785541402" cy="102.79055466999209" r="5" fill="#f9e1a8" stroke="#ddd3e6" stroke-width=".8"/><circle cx="54.894754202276395" cy="97.73939570022993" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="58.430780618346944" cy="93" r="5" fill="#f6c6d0" stroke="#ddd3e6" stroke-width=".8"/><circle cx="63.22986673028905" cy="88.71637170940383" r="5" fill="#c9e4f2" stroke="#ddd3e6" stroke-width=".8"/><circle cx="69.14619473504611" cy="85.01866670643066" r="5" fill="#fff6ea" stroke="#ddd3e6" stroke-width=".8"/><circle cx="75.99999999999997" cy="82.01923788646684" r="5" fill="#f9e1a8" stroke="#ddd3e6" stroke-width=".8"/><circle cx="83.58303312036787" cy="79.80922137642276" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="91.66488747198734" cy="78.45576740963375" r="5" fill="#f6c6d0" stroke="#ddd3e6" stroke-width=".8"/><circle cx="99.99999999999999" cy="78" r="5" fill="#c9e4f2" stroke="#ddd3e6" stroke-width=".8"/><circle cx="108.33511252801264" cy="78.45576740963375" r="5" fill="#fff6ea" stroke="#ddd3e6" stroke-width=".8"/><circle cx="116.41696687963207" cy="79.80922137642274" r="5" fill="#f9e1a8" stroke="#ddd3e6" stroke-width=".8"/><circle cx="124" cy="82.01923788646684" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="130.85380526495388" cy="85.01866670643065" r="5" fill="#f6c6d0" stroke="#ddd3e6" stroke-width=".8"/><circle cx="136.77013326971093" cy="88.71637170940382" r="5" fill="#c9e4f2" stroke="#ddd3e6" stroke-width=".8"/><circle cx="141.56921938165306" cy="92.99999999999999" r="5" fill="#fff6ea" stroke="#ddd3e6" stroke-width=".8"/><circle cx="145.1052457977236" cy="97.73939570022995" r="5" fill="#f9e1a8" stroke="#ddd3e6" stroke-width=".8"/><circle cx="147.27077214458598" cy="102.79055466999206" r="5" fill="#c9b6ec" stroke="#ddd3e6" stroke-width=".8"/><circle cx="100" cy="76" r="11" fill="#fffaf2" stroke="#e7dccc" stroke-width="2"/><circle cx="96" cy="72" r="3" fill="#fff"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">비즈 · 쉬움 · 10분</div>
+    <h3>시드비즈 반지</h3>
+    <div class="price-line"><span class="strike">사면 15,000원</span><b>만들면 550원</b></div>
+  </div></a><a class="card" href="/plaster-aroma" data-cat="석고" data-level="쉬움">
+  <div class="thumb" style="background:#ece6e0"><svg viewBox="0 0 200 200" role="img" aria-label="드라이플라워 석고 방향제">
+    <path d="M100 30 L100 62" stroke="#b8a07c" stroke-width="3"/>
+    <path d="M85 30 Q100 18 115 30" stroke="#b8a07c" stroke-width="3" fill="none"/>
+    <circle cx="100" cy="112" r="56" fill="#fbf8f3" stroke="#e1d8cc" stroke-width="3"/>
+    <circle cx="100" cy="68" r="5" fill="#ece6e0" stroke="#d3c8ba"/>
+    <path d="M78 140 Q90 110 102 92" stroke="#7d9a6b" stroke-width="2.5" fill="none"/>
+    <circle cx="102" cy="92" r="7" fill="#d58ea0"/><circle cx="90" cy="110" r="6" fill="#e9c46a"/><circle cx="114" cy="118" r="5" fill="#a9b8e0"/>
+    <ellipse cx="118" cy="104" rx="8" ry="4" fill="#9db58a" transform="rotate(-30 118 104)"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">석고 · 쉬움 · 40분 + 건조 하루</div>
+    <h3>드라이플라워 석고 방향제</h3>
+    <div class="price-line"><span class="strike">사면 15,000원</span><b>만들면 1,800원</b></div>
+  </div></a><a class="card" href="/terrazzo-tray" data-cat="석고" data-level="보통">
+  <div class="thumb" style="background:#eeeae4"><svg viewBox="0 0 200 200" role="img" aria-label="테라조 석고 트레이"><ellipse cx="100" cy="116" rx="80" ry="40" fill="#e3ddd3"/><ellipse cx="100" cy="108" rx="80" ry="40" fill="#f6f2ec"/><ellipse cx="100" cy="108" rx="66" ry="30" fill="#efe9e0"/><path d="M70 100 l5 -3 l3 4 l-6 3z" fill="#e08b6b"/><path d="M92 92 l6 -3 l3 5 l-6 3z" fill="#7d9a6b"/><path d="M120 98 l7 -3 l3 4 l-6 3z" fill="#e9c46a"/><path d="M80 120 l5 -3 l3 5 l-6 3z" fill="#a9b8e0"/><path d="M110 120 l6 -3 l3 4 l-6 3z" fill="#e08b6b"/><path d="M134 112 l7 -3 l3 5 l-6 3z" fill="#2f2a25"/><path d="M60 112 l5 -3 l3 4 l-6 3z" fill="#e9c46a"/><path d="M100 106 l6 -3 l3 5 l-6 3z" fill="#2f2a25"/><path d="M126 88 l7 -3 l3 4 l-6 3z" fill="#a9b8e0"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">석고 · 보통 · 1시간 + 건조 이틀</div>
+    <h3>테라조 석고 트레이</h3>
+    <div class="price-line"><span class="strike">사면 26,000원</span><b>만들면 1,800원</b></div>
+  </div></a><a class="card" href="/resin-coaster" data-cat="레진" data-level="보통">
+  <div class="thumb" style="background:#e1ebea"><svg viewBox="0 0 200 200" role="img" aria-label="꽃 레진 코스터 2개">
+    <rect x="34" y="70" width="80" height="80" rx="16" fill="#cfe7e6" opacity=".85" stroke="#9fc7c4" stroke-width="2"/>
+    <rect x="88" y="52" width="80" height="80" rx="16" fill="#e7f3f2" opacity=".9" stroke="#9fc7c4" stroke-width="2"/>
+    <circle cx="70" cy="110" r="9" fill="#d58ea0"/><circle cx="58" cy="96" r="5" fill="#e9c46a"/>
+    <circle cx="124" cy="90" r="8" fill="#a9b8e0"/><circle cx="142" cy="106" r="5" fill="#d58ea0"/>
+    <rect x="112" y="72" width="6" height="3" fill="#d4af37"/><rect x="134" y="80" width="4" height="4" fill="#d4af37" transform="rotate(30 136 82)"/>
+    <rect x="80" y="124" width="5" height="3" fill="#d4af37"/>
+    <path d="M100 60 L118 60" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">레진 · 보통 · 1시간 + 경화 이틀</div>
+    <h3>꽃 레진 코스터 2개</h3>
+    <div class="price-line"><span class="strike">사면 32,000원</span><b>만들면 6,300원</b></div>
+  </div></a><a class="card" href="/resin-initial-keyring" data-cat="레진" data-level="쉬움">
+  <div class="thumb" style="background:#e6eef6"><svg viewBox="0 0 200 200" role="img" aria-label="이니셜 레진 키링">
+    <circle cx="100" cy="32" r="12" fill="none" stroke="#b9b9c2" stroke-width="4"/><line x1="100" y1="44" x2="100" y2="58" stroke="#b9b9c2" stroke-width="3"/>
+    <path d="M70 160 L96 60 h10 L132 160 h-18 l-6 -24 h-26 l-6 24z M86 120 h18 l-9 -36z" fill="#cfe1f2" stroke="#9fbcd8" stroke-width="2" fill-rule="evenodd" opacity=".95"/>
+    <circle cx="98" cy="96" r="5" fill="#d58ea0"/><rect x="88" y="140" width="5" height="3" fill="#d4af37"/><rect x="110" y="128" width="4" height="4" fill="#d4af37" transform="rotate(30 112 130)"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">레진 · 쉬움 · 30분</div>
+    <h3>이니셜 레진 키링</h3>
+    <div class="price-line"><span class="strike">사면 12,000원</span><b>만들면 1,400원</b></div>
+  </div></a><a class="card" href="/dessert-candle" data-cat="캔들" data-level="보통">
+  <div class="thumb" style="background:#f6e3e3"><svg viewBox="0 0 200 200" role="img" aria-label="케이크 디저트 캔들">
+    <line x1="100" y1="42" x2="100" y2="56" stroke="#2f2a25" stroke-width="3"/>
+    <path d="M100 22 C108 32 107 40 100 42 C93 40 92 32 100 22Z" fill="#f2b84b"/>
+    <rect x="52" y="96" width="96" height="62" rx="10" fill="#f6c6cf"/>
+    <path d="M52 100 q12 14 24 0 q12 14 24 0 q12 14 24 0 q12 14 24 0 v-12 a10 10 0 0 0 -10 -10 h-76 a10 10 0 0 0 -10 10z" fill="#fffaf2"/>
+    <rect x="70" y="56" width="60" height="30" rx="8" fill="#fffaf2"/>
+    <circle cx="80" cy="72" r="7" fill="#e05a6b"/><circle cx="100" cy="68" r="7" fill="#e05a6b"/><circle cx="120" cy="72" r="7" fill="#e05a6b"/>
+    <rect x="52" y="130" width="96" height="6" fill="#f2b0bc"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">캔들 · 보통 · 1시간 + 굳히기 하루</div>
+    <h3>케이크 디저트 캔들</h3>
+    <div class="price-line"><span class="strike">사면 19,000원</span><b>만들면 3,580원</b></div>
+  </div></a><a class="card" href="/embroidery-brooch" data-cat="자수" data-level="보통">
+  <div class="thumb" style="background:#e6e4ef"><svg viewBox="0 0 200 200" role="img" aria-label="꽃 자수 브로치">
+    <circle cx="100" cy="100" r="62" fill="#f7f2e8" stroke="#c4a27a" stroke-width="7"/>
+    <rect x="94" y="30" width="12" height="14" rx="3" fill="#a9805a"/>
+    <path d="M100 150 Q98 125 100 100" stroke="#7d9a6b" stroke-width="2.5" fill="none"/>
+    <path d="M100 130 Q84 124 80 112" stroke="#7d9a6b" stroke-width="2" fill="none"/>
+    <path d="M100 120 Q116 116 120 104" stroke="#7d9a6b" stroke-width="2" fill="none"/>
+    <ellipse cx="105" cy="92" rx="4" ry="3" fill="#d58ea0" transform="rotate(0 105 92)"/><ellipse cx="101.54508497187474" cy="96.75528258147577" rx="4" ry="3" fill="#d58ea0" transform="rotate(72 101.54508497187474 96.75528258147577)"/><ellipse cx="95.95491502812527" cy="94.93892626146237" rx="4" ry="3" fill="#d58ea0" transform="rotate(144 95.95491502812527 94.93892626146237)"/><ellipse cx="95.95491502812526" cy="89.06107373853763" rx="4" ry="3" fill="#d58ea0" transform="rotate(216 95.95491502812526 89.06107373853763)"/><ellipse cx="101.54508497187473" cy="87.24471741852423" rx="4" ry="3" fill="#d58ea0" transform="rotate(288 101.54508497187473 87.24471741852423)"/><circle cx="100" cy="92" r="2.2" fill="#fff6d0"/><ellipse cx="85" cy="106" rx="4" ry="3" fill="#e9c46a" transform="rotate(0 85 106)"/><ellipse cx="81.54508497187474" cy="110.75528258147577" rx="4" ry="3" fill="#e9c46a" transform="rotate(72 81.54508497187474 110.75528258147577)"/><ellipse cx="75.95491502812527" cy="108.93892626146237" rx="4" ry="3" fill="#e9c46a" transform="rotate(144 75.95491502812527 108.93892626146237)"/><ellipse cx="75.95491502812526" cy="103.06107373853763" rx="4" ry="3" fill="#e9c46a" transform="rotate(216 75.95491502812526 103.06107373853763)"/><ellipse cx="81.54508497187473" cy="101.24471741852423" rx="4" ry="3" fill="#e9c46a" transform="rotate(288 81.54508497187473 101.24471741852423)"/><circle cx="80" cy="106" r="2.2" fill="#fff6d0"/><ellipse cx="125" cy="98" rx="4" ry="3" fill="#a9b8e0" transform="rotate(0 125 98)"/><ellipse cx="121.54508497187474" cy="102.75528258147577" rx="4" ry="3" fill="#a9b8e0" transform="rotate(72 121.54508497187474 102.75528258147577)"/><ellipse cx="115.95491502812527" cy="100.93892626146237" rx="4" ry="3" fill="#a9b8e0" transform="rotate(144 115.95491502812527 100.93892626146237)"/><ellipse cx="115.95491502812526" cy="95.06107373853763" rx="4" ry="3" fill="#a9b8e0" transform="rotate(216 115.95491502812526 95.06107373853763)"/><ellipse cx="121.54508497187473" cy="93.24471741852423" rx="4" ry="3" fill="#a9b8e0" transform="rotate(288 121.54508497187473 93.24471741852423)"/><circle cx="120" cy="98" r="2.2" fill="#fff6d0"/><ellipse cx="93" cy="84" rx="4" ry="3" fill="#f2b0a1" transform="rotate(0 93 84)"/><ellipse cx="89.54508497187474" cy="88.75528258147577" rx="4" ry="3" fill="#f2b0a1" transform="rotate(72 89.54508497187474 88.75528258147577)"/><ellipse cx="83.95491502812527" cy="86.93892626146237" rx="4" ry="3" fill="#f2b0a1" transform="rotate(144 83.95491502812527 86.93892626146237)"/><ellipse cx="83.95491502812526" cy="81.06107373853763" rx="4" ry="3" fill="#f2b0a1" transform="rotate(216 83.95491502812526 81.06107373853763)"/><ellipse cx="89.54508497187473" cy="79.24471741852423" rx="4" ry="3" fill="#f2b0a1" transform="rotate(288 89.54508497187473 79.24471741852423)"/><circle cx="88" cy="84" r="2.2" fill="#fff6d0"/><ellipse cx="119" cy="82" rx="4" ry="3" fill="#e9c46a" transform="rotate(0 119 82)"/><ellipse cx="115.54508497187474" cy="86.75528258147577" rx="4" ry="3" fill="#e9c46a" transform="rotate(72 115.54508497187474 86.75528258147577)"/><ellipse cx="109.95491502812527" cy="84.93892626146237" rx="4" ry="3" fill="#e9c46a" transform="rotate(144 109.95491502812527 84.93892626146237)"/><ellipse cx="109.95491502812526" cy="79.06107373853763" rx="4" ry="3" fill="#e9c46a" transform="rotate(216 109.95491502812526 79.06107373853763)"/><ellipse cx="115.54508497187473" cy="77.24471741852423" rx="4" ry="3" fill="#e9c46a" transform="rotate(288 115.54508497187473 77.24471741852423)"/><circle cx="114" cy="82" r="2.2" fill="#fff6d0"/></svg><span class="badge break">완성품 뜯어보기</span></div>
+  <div class="card-body">
+    <div class="meta">자수 · 보통 · 3시간</div>
+    <h3>꽃 자수 브로치</h3>
+    <div class="price-line"><span class="strike">사면 22,000원</span><b>만들면 1,300원</b></div>
+  </div></a></div>
+</section>
+<section class="sec">
+  <div class="sec-head"><h2>재료 하나로 여러 개</h2><a href="/materials">재료 사전</a></div>
+  <p class="sec-sub">한 번 산 재료가 다른 작품에도 쓰여요</p>
+  <div class="hub-list"><a class="hub-row" href="/materials#fragrance-oil"><span>프래그런스 오일 30ml</span><span class="muted">앰버자 소이캔들 · 천연 색소 MP 비누 · 리드 스틱 디퓨저 · 드라이플라워 석고 방향제 · 케이크 디저트 캔들</span></a><a class="hub-row" href="/materials#dried-flower"><span>드라이플라워 믹스</span><span class="muted">앰버자 소이캔들 · 드라이플라워 석고 방향제 · 꽃 레진 코스터 2개</span></a><a class="hub-row" href="/materials#key-ring"><span>키링 고리 (10개)</span><span class="muted">모루 곰돌이 키링 · 파스텔 비즈 키링 · 이니셜 레진 키링 · 털실 방울 키링</span></a></div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div><b>하루취미</b> haruchwimi.com<br><span class="muted">하루 한 가지, 손으로 만드는 취미</span></div>
+    <div class="foot-links"><a href="/about">소개</a><a href="/privacy">개인정보처리방침</a><a href="mailto:hello@haruchwimi.com">문의</a></div>
+    <p class="muted small">가격은 작성 시점의 참고가이며 판매처와 시기에 따라 달라질 수 있어요.</p>
+  </div>
+</footer>
+<script src="/site.js" defer></script>
 </body>
 </html>
-
